@@ -1,0 +1,90 @@
+html {
+	background-color: #333333;
+}
+
+body {
+	font-family: "Courier New";
+}
+
+tr {
+	height: 90px;
+}
+
+input {
+	font-family: "Courier New";
+}
+
+a {
+	color: #cccccc;
+	text-decoration: none;
+	font-size: 20;
+}
+
+.flex-container {
+	display: flex;
+	align-items: stretch;
+	width: 100%;
+}
+
+.controls-box {
+	flex: 50%;
+  	margin: 10px;
+  	padding: 10px;
+  	margin-top: 100px;
+}
+
+.output-box {
+	flex: 50%;
+	margin: 10px;
+	padding: 10px;
+	background-color: #bbbbbb;
+	border-style: solid;
+    border-color: #888888;
+	height: 570px;
+  	overflow-y: scroll;
+}
+
+.info-box {
+	flex: 50%;
+	margin: 20px;
+	margin-top: 10px;
+	padding: 10px;
+	padding-top: 0px;
+	background-color: #bbbbbb;
+	border-style: solid;
+    border-color: #888888;
+	height: 570px;
+}
+
+.link-box {
+	margin-left: 20px;
+}
+
+.header {
+	text-align: center;
+	color: #cccccc;
+}
+
+.sub-header {
+	text-align: center;
+	color: #333333;
+}
+
+.grey {
+	color: #333333;
+}
+
+.button {
+    background-color: #bbbbbb;
+    padding: 9.5px;
+    width: 150px;
+    font-size: 21px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #888888;
+    text-align: center;
+}
+
+.buttons-table {
+	width: 100%;
+}

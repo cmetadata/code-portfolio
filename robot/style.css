@@ -1,0 +1,59 @@
+html {
+	background-color: #333333;
+}
+
+body {
+	font-family: "Courier New";
+}
+
+tr {
+	height: 90px;
+}
+
+input {
+	font-family: "Courier New";
+}
+
+.flex-container {
+	display: flex;
+	align-items: stretch;
+	width: 100%;
+}
+
+.controls-box {
+	flex: 50%;
+  	margin: 10px;
+  	padding: 10px;
+  	margin-top: 100px;
+}
+
+.output-box {
+	flex: 50%;
+	margin: 10px;
+	padding: 10px;
+	background-color: #bbbbbb;
+	border-style: solid;
+    border-color: #888888;
+	height: 600px;
+  	overflow-y: scroll;
+}
+
+.header {
+	text-align: center;
+	color: #cccccc;
+}
+
+.button {
+    background-color: #bbbbbb;
+    padding: 9.5px;
+    width: 150px;
+    font-size: 21px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #888888;
+    text-align: center;
+}
+
+.buttons-table {
+	width: 100%;
+}

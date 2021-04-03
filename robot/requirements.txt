@@ -1,0 +1,13 @@
+asyncio==3.4.3
+Flask==0.12.1
+celery==4.0.2 
+future==0.16.0
+lxml==3.6.4               
+aniso8601==1.2.0
+pyOpenSSL==17.0.0
+PyYAML==3.12
+goto-statement==1.1
+six==1.10.0
+requests==2.5.3
+Flask-Ask==0.9.6
+aiohttp==2.2.5
