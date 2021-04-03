@@ -1,6 +1,0 @@
-makefile
-myfile.txt
-mysh
-mysh.c
-mysh.o
-script.sh
